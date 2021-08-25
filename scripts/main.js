@@ -28,10 +28,11 @@ async function buildQuiz() {
 
 		for (letter in question.answers) {
 			answers.push(
-				`<label>
-            <input type="radio" name="question${index}" value="${letter}">
+				`<label class="radio-container">
             ${letter} :
             ${question.answers[letter]}
+            <input type="radio" name="question${index}" value="${letter}" name="radio">
+            <span class="checkmark"></span>
           </label>`
 			);
 		}
@@ -70,15 +71,15 @@ function showResults() {
 		if (userAnswer === currentQuestion.correctAnswer) {
 			numCorrect++;
 
-			answerContainers[questionNumber].style.color = "#00473e";
+			answerContainers[questionNumber].style.color = "#004643";
 		} else {
-			answerContainers[questionNumber].style.color = "#fa5246";
+			answerContainers[questionNumber].style.color = "#e16162";
 		}
 	});
 
 	resultsContainer.insertAdjacentHTML(
 		"beforeend",
-		`<p>${numCorrect} out of ${questions.length}</p>`
+		`<p class="results-paragraph">Você acertou ${numCorrect} de ${questions.length}!</p>`
 	);
 }
 

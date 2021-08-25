@@ -1,0 +1,32 @@
+[	
+  {
+		"question": "O que é DRE (Demonstração de Resultado do Exercício)?",
+		"answers": {
+			"a": "Relatório contábil que evidencia se as operações de uma empresa estão gerando lucro ou prejuízo.",
+			"b": "Relatório contábil que demonstra a situação patrimonial da empresa, como bens, direitos,obrigações e investimentos.",
+			"c": "Relatório financeiro que especifica valores de capital de cada integrante de uma associação.",
+      "d": "Gráfico de áreas demonstrando a assertividade da empresa no mercado."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"question": "Com relação à Demonstração do Resultado do Exercício, é correto afirmar:",
+		"answers": {
+			"a": "Apresenta os grupos Ativo Circulante, Passivo Circulante e Patrimônio Líquido do Período, que corresponde à diferença entre Ativo e Passivo.",
+			"b": "Apresenta a movimentação de caixa de uma entidade, ou seja, os seus pagamentos e recebimentos no período.",
+			"c": "Apresenta o Patrimônio Líquido da empresa numa data definida. Por exemplo: Patrimônio da Cia XYZ S.A. em 31.12.XXXY.",
+      "d": "Pelo princípio da realização da receita e confrontação da despesa, apresenta o resultado do período realizado na forma de pagamentos e recebimentos ocorridos."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "Na DRE, assinale a alternativa que não representa como um lançamento de contas em razonete deve ser interpretado:",
+		"answers": {
+			"a": "O débito de despesas representa o lançamento de uma pendência/aumento desta despesa.",
+			"b": "O débito de receitas representa o aumento desta conta.",
+			"c": "O crédito de receitas representa a diminuição desta conta.",
+			"d": "O débito de despesas representa o pagamento/diminuição desta despesa."
+		},
+		"correctAnswer": "a"
+	}
+]
