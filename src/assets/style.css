@@ -1,0 +1,73 @@
+body {
+	font-size: 10px;
+	font-family: "Roboto slab", serif;
+	color: #333;
+	font-weight: 300;
+	text-align: center;
+	background-color: #f2f7f5;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-weight: 600;
+	margin: 0;
+	padding: 1rem;
+	font-size: 1.8rem;
+	background-color: #00473e;
+	color: #f2f7f5;
+}
+
+.question {
+	font-size: 2.4rem;
+	margin-bottom: 1.6rem;
+}
+
+.answers {
+	margin-bottom: 20px;
+	font-size: 1.6rem;
+	text-align: left;
+	display: inline-block;
+}
+
+.answers label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+button {
+	font-family: "Roboto slab", serif;
+	font-size: 2.4rem;
+	background-color: #00473e;
+	color: #fff;
+	border: 0;
+	border-radius: 0.1rem;
+	padding: 2.4rem;
+	cursor: pointer;
+	margin-bottom: 2.4rem;
+	transition: all 0.3s;
+}
+
+button:hover {
+	opacity: 0.75;
+}
+
+.slide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.active-slide {
+	opacity: 1;
+	z-index: 2;
+}
+
+.quiz-container {
+	display: flex;
+	flex-direction: column;
+}
