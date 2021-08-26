@@ -28,5 +28,95 @@
 			"d": "O débito de despesas representa o pagamento/diminuição desta despesa."
 		},
 		"correctAnswer": "a"
+	},
+	{
+		"question": "As contas listadas a seguir podem ser classificadas como Receitas Financeiras na elaboração da Demonstração do Resultado do Exercício, à exceção de uma. Selecione-a.",
+		"answers": {
+			"a": "Descontos obtidos.",
+			"b": "Receitas sobre outros investimentos temporários.",
+			"c": "Prêmio de resgate de títulos.",
+			"d": "Receita com equivalência patrimonial."
+		},
+		"correctAnswer": "d"
+	},
+	{
+		"question": "O gráfico “T” ou conta em “T”, empregado para controlar o movimento individualizado das contas, é o mesmo que:",
+		"answers": {
+			"a": "Balanço Sucessivos.",
+			"b": "Demonstração do Resultado do Exercício.",
+			"c": "Razonetes.",
+			"d": "Planos de contas."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "Numa demonstração de resultado do exercício, o lucro bruto é obtido pela diferença entre:",
+		"answers": {
+			"a": "Receita Operacional Bruta e a Receita Operacional Líquida.",
+			"b": "Receita Operacional Líquida e as Despesas Operacionais.",
+			"c": "Receita Operacional Líquida e os Custos das Vendas.",
+			"d": "Receita Operacional Bruta e as Deduções da Receita Bruta."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "Assinale a opção que indica o que é evidenciado pela Demonstração do Resultado do Exercício.",
+		"answers": {
+			"a": "A riqueza gerada pela entidade e pertencente ao acionista.",
+			"b": "As aplicações e as origens dos recursos da entidade.",
+			"c": "A movimentação ocorrida nas contas pertencentes aos sócios da entidade.",
+			"d": "A parte dos recursos financeiros gerada internamente pela entidade."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"question": "A finalidade da demonstração do resultado do exercício é apresentar o resultado de uma entidade em determinado período de tempo e sua:",
+		"answers": {
+			"a": "Composição de receitas e despesas.",
+			"b": "Posição contábil e patrimonial.",
+			"c": "Posição estática e econômica.",
+			"d": "Composição de liquidez e solvência."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"question": "Analisando-se a estrutura da Demonstração de Resultado do Exercício, pode-se afirmar corretamente que o lucro bruto resulta da diferença positiva entre:",
+		"answers": {
+			"a": "A receita líquida de vendas e o custo das mercadorias vendidas.",
+			"b": "A receita bruta de vendas e suas deduções.",
+			"c": "As receitas, custos e despesas do exercício.",
+			"d": "As receitas e despesas operacionais do exercício."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"question": "Para construção da DRE, assinale a opção que melhor representa o cálculo da receita líquida:",
+		"answers": {
+			"a": "Patrimônio líquido > deduzir despesas > adicionar o valor total das vendas.",
+			"b": "Valor total das vendas > deduzir os custos > deduzir despesas administrativas e financeiras.",
+			"c": "Ativos > deduzir custo > deduzir despesas administrativas e financeiras.",
+			"d": "Valor total das vendas > adicionar ativos > deduzir custos."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"question": "A demonstração contábil, na qual os usuários podem observar o indicador global de eficiência da empresa consubstanciado no retorno que a mesma propicia ao investimento nela feito pelos respectivos donos, é a demonstração do(a):",
+		"answers": {
+			"a": "Fluxo de Caixa.",
+			"b": "Resultado do Exercício.",
+			"c": "Lucro ou Prejuízo Acumulado",
+			"d": "Mutação do Patrimônio Líquido"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"question": "A Demonstração do Resultado do Exercício (DRE) confronta as receitas e os ganhos com as despesas e perdas de uma empresa. Na estrutura da DRE, a diferença entre a receita líquida de vendas e o custo das mercadorias ou serviços vendidos expressa o valor da(o):",
+		"answers": {
+			"a": "Receita bruta das vendas.",
+			"b": "Faturamento bruto.",
+			"c": "Lucro ou prejuízo líquido do exercício.",
+			"d": "Lucro bruto"
+		},
+		"correctAnswer": "d"
 	}
 ]
