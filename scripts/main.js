@@ -54,7 +54,7 @@ async function buildQuiz() {
 function getQuestions() {
 	return fetch("./assets/questions.json")
 		.then((response) => response.json())
-		.then((questions) => questions.sort(() => Math.random() - 0.5))
+		.then((questions) => questions.sort(() => Math.random() - 0.5) )
 		.catch((error) => console.warn(error));
 }
 

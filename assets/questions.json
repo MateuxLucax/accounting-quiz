@@ -104,8 +104,8 @@
 		"answers": {
 			"a": "Fluxo de Caixa.",
 			"b": "Resultado do Exercício.",
-			"c": "Lucro ou Prejuízo Acumulado",
-			"d": "Mutação do Patrimônio Líquido"
+			"c": "Lucro ou Prejuízo Acumulado.",
+			"d": "Mutação do Patrimônio Líquido."
 		},
 		"correctAnswer": "b"
 	},
@@ -115,7 +115,7 @@
 			"a": "Receita bruta das vendas.",
 			"b": "Faturamento bruto.",
 			"c": "Lucro ou prejuízo líquido do exercício.",
-			"d": "Lucro bruto"
+			"d": "Lucro bruto."
 		},
 		"correctAnswer": "d"
 	}
