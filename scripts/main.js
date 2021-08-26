@@ -1,9 +1,11 @@
 const quizContainer = document.getElementById("quiz");
 const resultsContainer = document.getElementById("results");
 const submitButton = document.getElementById("submit");
-
+const progressBar = document.getElementById("progress-bar");
+const progressBarTitle = document.getElementById("progress-bar-title");
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
+
 let slides = [];
 let questions = [];
 let currentSlide = 0;
@@ -54,7 +56,7 @@ async function buildQuiz() {
 function getQuestions() {
 	return fetch("./assets/questions.json")
 		.then((response) => response.json())
-		.then((questions) => questions.sort(() => Math.random() - 0.5) )
+		.then((questions) => questions.sort(() => Math.random() - 0.5))
 		.catch((error) => console.warn(error));
 }
 
@@ -84,6 +86,9 @@ function showResults() {
 }
 
 function showSlide(n) {
+	progressBar.value = percentage(n + 1, questions.length);
+	progressBarTitle.innerHTML = `${n + 1} de ${questions.length}`;
+
 	slides[currentSlide].classList.remove("active-slide");
 	slides[n].classList.add("active-slide");
 	currentSlide = n;
@@ -109,4 +114,9 @@ function showNextSlide() {
 
 function showPreviousSlide() {
 	showSlide(currentSlide - 1);
+}
+
+function percentage(partialValue, totalValue) {
+	console.log((100 * partialValue) / totalValue);
+	return (100 * partialValue) / totalValue;
 }
