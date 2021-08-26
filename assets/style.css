@@ -41,7 +41,7 @@ h1 {
 	display: block;
 }
 
-.answers label:not(:last-child) {
+.answers label {
 	padding-bottom: 1.2rem;
 }
 
